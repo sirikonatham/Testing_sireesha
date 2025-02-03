@@ -32,10 +32,11 @@
       </plugin>
   
   
-  </plugins>
+  		</plugins>
   
-  </pluginManagement>build>
-	 </build>pluginManagement>
+  	</pluginManagement>
+	 </build>
+	 
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
