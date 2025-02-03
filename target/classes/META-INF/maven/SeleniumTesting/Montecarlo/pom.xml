@@ -3,6 +3,8 @@
   <groupId>SeleniumTesting</groupId>
   <artifactId>Montecarlo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+	 <pluginManagement>
   
   <plugins>
   
@@ -31,6 +33,9 @@
   
   
   </plugins>
+  
+  </pluginManagement>build>
+	 </build>pluginManagement>
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
