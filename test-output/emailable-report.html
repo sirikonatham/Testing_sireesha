@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">334,235</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testscript.AddToCart</td><td><a href="#m0">addToCart</a></td><td rowspan="1">1738499324208</td><td rowspan="1">12991</td></tr><tr class="failedodd"><td rowspan="1">testscript.HandTowels</td><td><a href="#m1">handTowels</a></td><td rowspan="1">1738499113539</td><td rowspan="1">48352</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testscript.AddingAdreess</td><td><a href="#m2">addingAdress</a></td><td rowspan="1">1738499206794</td><td rowspan="1">19380</td></tr><tr class="passedodd"><td rowspan="1">testscript.DeletingAdress</td><td><a href="#m3">deletingAdress</a></td><td rowspan="1">1738499239611</td><td rowspan="1">13884</td></tr><tr class="passedeven"><td rowspan="1">testscript.EmptyCart</td><td><a href="#m4">emptyCart</a></td><td rowspan="1">1738499290401</td><td rowspan="1">15996</td></tr><tr class="passedodd"><td rowspan="1">testscript.GiftCard</td><td><a href="#m5">giftCards</a></td><td rowspan="1">1738499059819</td><td rowspan="1">11027</td></tr><tr class="passedeven"><td rowspan="1">testscript.MenSectionProducts</td><td><a href="#m6">menSection</a></td><td rowspan="1">1738499265197</td><td rowspan="1">13794</td></tr><tr class="passedodd"><td rowspan="1">testscript.MountCarloHome</td><td><a href="#m7">mountCraloHome</a></td><td rowspan="1">1738499083055</td><td rowspan="1">20039</td></tr><tr class="passedeven"><td rowspan="1">testscript.WomenSection</td><td><a href="#m8">womenSectionproduct</a></td><td rowspan="1">1738499174742</td><td rowspan="1">18376</td></tr><tr class="passedodd"><td rowspan="1">testscript.WomenWishList</td><td><a href="#m9">womenWishlist</a></td><td rowspan="1">1738499021768</td><td rowspan="1">26604</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testscript.AddToCart#addToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=132.0.2957.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6e34646dd3a15ba13ea5f0086724fc3d, clickElement {id=f.D7AB6BC3A065D07BD8C1D8B8294E1C86.d.4A47F5A5574A02A402026477199F6628.e.320}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64342}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\ks114159\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64342/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6e34646dd3a15ba13ea5f0086724fc3d)] -&gt; xpath: (//label[@class=&apos;color-swatch__item&apos;])[7]]
+Session ID: 6e34646dd3a15ba13ea5f0086724fc3d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at pom.AcCollectionPage.colorButtonCheckbox(AcCollectionPage.java:148)
+	at testscript.AddToCart.addToCart(AddToCart.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testscript.HandTowels#handTowels</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=132.0.2957.127)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9a3f816521e1da64faf19647566a7f04, clickElement {id=f.85C994035D91420B4465C3D1E7151554.d.0D39BC132FC9C898171AEAA74D57B9E3.e.392}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63263}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\ks114159\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63263/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (9a3f816521e1da64faf19647566a7f04)] -&gt; xpath: //button[contains(@data-flits-product-title,&apos;Brown Cotton 400 GSM&apos; )]]
+Session ID: 9a3f816521e1da64faf19647566a7f04
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at pom.AcWishListPage.closeButton(AcWishListPage.java:90)
+	at testscript.HandTowels.handTowels(HandTowels.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testscript.AddingAdreess#addingAdress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testscript.DeletingAdress#deletingAdress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testscript.EmptyCart#emptyCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testscript.GiftCard#giftCards</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testscript.MenSectionProducts#menSection</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testscript.MountCarloHome#mountCraloHome</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testscript.WomenSection#womenSectionproduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testscript.WomenWishList#womenWishlist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

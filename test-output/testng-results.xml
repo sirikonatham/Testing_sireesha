@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-02T17:53:26 IST" name="Suite" finished-at="2025-02-02T17:59:00 IST" duration-ms="334235">
+    <groups>
+    </groups>
+    <test started-at="2025-02-02T17:53:26 IST" name="Test" finished-at="2025-02-02T17:59:00 IST" duration-ms="334235">
+      <class name="testscript.DeletingAdress">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.DeletingAdress@6d763516]" started-at="2025-02-02T17:57:09 IST" name="openApp" finished-at="2025-02-02T17:57:19 IST" duration-ms="10230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="deletingAdress()[pri:0, instance:testscript.DeletingAdress@6d763516]" started-at="2025-02-02T17:57:19 IST" name="deletingAdress" finished-at="2025-02-02T17:57:33 IST" duration-ms="13884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletingAdress -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.DeletingAdress@6d763516]" started-at="2025-02-02T17:57:33 IST" name="closeApp" finished-at="2025-02-02T17:57:35 IST" duration-ms="2453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.DeletingAdress -->
+      <class name="testscript.AddingAdreess">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.AddingAdreess@2a798d51]" started-at="2025-02-02T17:56:37 IST" name="openApp" finished-at="2025-02-02T17:56:46 IST" duration-ms="9069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="addingAdress()[pri:0, instance:testscript.AddingAdreess@2a798d51]" started-at="2025-02-02T17:56:46 IST" name="addingAdress" finished-at="2025-02-02T17:57:06 IST" duration-ms="19380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingAdress -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.AddingAdreess@2a798d51]" started-at="2025-02-02T17:57:06 IST" name="closeApp" finished-at="2025-02-02T17:57:09 IST" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.AddingAdreess -->
+      <class name="testscript.GiftCard">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.GiftCard@7ec7ffd3]" started-at="2025-02-02T17:54:10 IST" name="openApp" finished-at="2025-02-02T17:54:19 IST" duration-ms="9340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="giftCards()[pri:0, instance:testscript.GiftCard@7ec7ffd3]" started-at="2025-02-02T17:54:19 IST" name="giftCards" finished-at="2025-02-02T17:54:30 IST" duration-ms="11027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCards -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.GiftCard@7ec7ffd3]" started-at="2025-02-02T17:54:30 IST" name="closeApp" finished-at="2025-02-02T17:54:33 IST" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.GiftCard -->
+      <class name="testscript.MountCarloHome">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.MountCarloHome@5b239d7d]" started-at="2025-02-02T17:54:33 IST" name="openApp" finished-at="2025-02-02T17:54:43 IST" duration-ms="9765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="mountCraloHome()[pri:0, instance:testscript.MountCarloHome@5b239d7d]" started-at="2025-02-02T17:54:43 IST" name="mountCraloHome" finished-at="2025-02-02T17:55:03 IST" duration-ms="20039" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mountCraloHome -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.MountCarloHome@5b239d7d]" started-at="2025-02-02T17:55:03 IST" name="closeApp" finished-at="2025-02-02T17:55:05 IST" duration-ms="2228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.MountCarloHome -->
+      <class name="testscript.WomenWishList">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.WomenWishList@441772e]" started-at="2025-02-02T17:53:26 IST" name="openApp" finished-at="2025-02-02T17:53:41 IST" duration-ms="15592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="womenWishlist()[pri:0, instance:testscript.WomenWishList@441772e]" started-at="2025-02-02T17:53:41 IST" name="womenWishlist" finished-at="2025-02-02T17:54:08 IST" duration-ms="26604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- womenWishlist -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.WomenWishList@441772e]" started-at="2025-02-02T17:54:08 IST" name="closeApp" finished-at="2025-02-02T17:54:10 IST" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.WomenWishList -->
+      <class name="testscript.MenSectionProducts">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.MenSectionProducts@52bf72b5]" started-at="2025-02-02T17:57:35 IST" name="openApp" finished-at="2025-02-02T17:57:45 IST" duration-ms="9246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="menSection()[pri:0, instance:testscript.MenSectionProducts@52bf72b5]" started-at="2025-02-02T17:57:45 IST" name="menSection" finished-at="2025-02-02T17:57:58 IST" duration-ms="13794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menSection -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.MenSectionProducts@52bf72b5]" started-at="2025-02-02T17:57:58 IST" name="closeApp" finished-at="2025-02-02T17:58:01 IST" duration-ms="2642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.MenSectionProducts -->
+      <class name="testscript.WomenSection">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.WomenSection@6b81ce95]" started-at="2025-02-02T17:56:04 IST" name="openApp" finished-at="2025-02-02T17:56:14 IST" duration-ms="10268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="womenSectionproduct()[pri:0, instance:testscript.WomenSection@6b81ce95]" started-at="2025-02-02T17:56:14 IST" name="womenSectionproduct" finished-at="2025-02-02T17:56:33 IST" duration-ms="18376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- womenSectionproduct -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.WomenSection@6b81ce95]" started-at="2025-02-02T17:56:33 IST" name="closeApp" finished-at="2025-02-02T17:56:37 IST" duration-ms="4606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.WomenSection -->
+      <class name="testscript.HandTowels">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.HandTowels@6572421]" started-at="2025-02-02T17:55:05 IST" name="openApp" finished-at="2025-02-02T17:55:13 IST" duration-ms="8214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="handTowels()[pri:0, instance:testscript.HandTowels@6572421]" started-at="2025-02-02T17:55:13 IST" name="handTowels" finished-at="2025-02-02T17:56:01 IST" duration-ms="48352" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=132.0.2957.127)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9a3f816521e1da64faf19647566a7f04, clickElement {id=f.85C994035D91420B4465C3D1E7151554.d.0D39BC132FC9C898171AEAA74D57B9E3.e.392}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63263}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\ks114159\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63263/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (9a3f816521e1da64faf19647566a7f04)] -> xpath: //button[contains(@data-flits-product-title,'Brown Cotton 400 GSM' )]]
+Session ID: 9a3f816521e1da64faf19647566a7f04]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=132.0.2957.127)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9a3f816521e1da64faf19647566a7f04, clickElement {id=f.85C994035D91420B4465C3D1E7151554.d.0D39BC132FC9C898171AEAA74D57B9E3.e.392}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63263}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\ks114159\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63263/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (9a3f816521e1da64faf19647566a7f04)] -> xpath: //button[contains(@data-flits-product-title,'Brown Cotton 400 GSM' )]]
+Session ID: 9a3f816521e1da64faf19647566a7f04
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pom.AcWishListPage.closeButton(AcWishListPage.java:90)
+at testscript.HandTowels.handTowels(HandTowels.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handTowels -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.HandTowels@6572421]" started-at="2025-02-02T17:56:02 IST" name="closeApp" finished-at="2025-02-02T17:56:04 IST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.HandTowels -->
+      <class name="testscript.AddToCart">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.AddToCart@515aebb0]" started-at="2025-02-02T17:58:29 IST" name="openApp" finished-at="2025-02-02T17:58:44 IST" duration-ms="14716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="addToCart()[pri:0, instance:testscript.AddToCart@515aebb0]" started-at="2025-02-02T17:58:44 IST" name="addToCart" finished-at="2025-02-02T17:58:57 IST" duration-ms="12991" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=132.0.2957.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6e34646dd3a15ba13ea5f0086724fc3d, clickElement {id=f.D7AB6BC3A065D07BD8C1D8B8294E1C86.d.4A47F5A5574A02A402026477199F6628.e.320}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64342}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\ks114159\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64342/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6e34646dd3a15ba13ea5f0086724fc3d)] -> xpath: (//label[@class='color-swatch__item'])[7]]
+Session ID: 6e34646dd3a15ba13ea5f0086724fc3d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=132.0.2957.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6e34646dd3a15ba13ea5f0086724fc3d, clickElement {id=f.D7AB6BC3A065D07BD8C1D8B8294E1C86.d.4A47F5A5574A02A402026477199F6628.e.320}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64342}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\ks114159\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64342/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6e34646dd3a15ba13ea5f0086724fc3d)] -> xpath: (//label[@class='color-swatch__item'])[7]]
+Session ID: 6e34646dd3a15ba13ea5f0086724fc3d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pom.AcCollectionPage.colorButtonCheckbox(AcCollectionPage.java:148)
+at testscript.AddToCart.addToCart(AddToCart.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.AddToCart@515aebb0]" started-at="2025-02-02T17:58:57 IST" name="closeApp" finished-at="2025-02-02T17:59:00 IST" duration-ms="2932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.AddToCart -->
+      <class name="testscript.EmptyCart">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscript.EmptyCart@37afeb11]" started-at="2025-02-02T17:58:01 IST" name="openApp" finished-at="2025-02-02T17:58:10 IST" duration-ms="8764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="emptyCart()[pri:0, instance:testscript.EmptyCart@37afeb11]" started-at="2025-02-02T17:58:10 IST" name="emptyCart" finished-at="2025-02-02T17:58:26 IST" duration-ms="15996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testscript.EmptyCart@37afeb11]" started-at="2025-02-02T17:58:26 IST" name="closeApp" finished-at="2025-02-02T17:58:29 IST" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscript.EmptyCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
